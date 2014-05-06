@@ -258,7 +258,7 @@ know how fast an id can be generated and encoded in order to hit the wire.
 Benchmarks including a network are left as an exercise for the reader because
 all networks vary.
 
-These show that when a client can safely ask for more one than one id at a time,
+These show that when a client can safely ask for more than one id at a time,
 they can reduce time to wire and the expensive read/write operations.
 
 		BenchmarkServe01	 1677 ns/op	# 596303 ids/sec
